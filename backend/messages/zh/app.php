@@ -37,6 +37,7 @@ return [
     'Add' => '新增',
     'Search' => '搜索',
     'Users' => '用户',
+    'Wechat Users' => '微信用户',
     'ID' => '序号',
     'Nickname' => '昵称',
     'Not Audited' => '待审核',
@@ -347,4 +348,20 @@ return [
     'Ad' => '广告',
     'Ad Explain' => '广告描述',
     /*ad*/
+
+    /*wechat user*/
+    'Whether Subscribe' => '是否订阅',
+    'Sex' => '性别',
+    'City' => '城市',
+    'Country' => '国家',
+    'Province' => '省份',
+    'Language' => '语言',
+    'Headimgurl' => '头像',
+    'Subscribe Time' => '用户关注时间',
+    'Groupid' => '分组ID',
+    'Tagid List' => '标签ID列表',
+    'Subscribe Scene' => '用户关注的渠道来源',
+    'Qr Scene' => '二维码扫码场景',
+    'Qr Scene Str' => '二维码扫码场景描述',
+    /*wechat user*/
 ];

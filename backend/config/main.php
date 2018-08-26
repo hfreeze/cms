@@ -26,6 +26,12 @@ return [
             'name' => 'BACKEND_FEEHICMS',
             'timeout' => 1440,//session过期时间，单位为秒
         ],
+        'wechat' => [
+            'class' => 'callmez\wechat\sdk\Wechat',
+            'appId' => '',
+            'appSecret' => '',
+            'token' => ''
+        ],
         'log' => [//此项具体详细配置，请访问http://wiki.feehi.com/index.php?title=Yii2_log
             'traceLevel' => YII_DEBUG ? 3 : 0,
             'targets' => [
